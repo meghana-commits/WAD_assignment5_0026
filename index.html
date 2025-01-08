@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <script type="text/javascript" src="file.js"></script>
+    </head>
+    <center><body style="background-color: rgb(24, 175, 225);">
+        <h1>SRI LALITHA MEGHANA VU22CSEN0100026</h1>
+        <br><br>
+        <input type="button" onclick="greeting()" value="greeting">
+        <br><br><br>
+        <h1>Interactive Quiz</h1>
+        <form action="" name="f1">
+        <p>What is the short form of "Web application Development"?</p>
+        <input type="text" placeholder="Enter your answer here" name="v1">
+        <input type="submit" onclick="check(document.forms['f1'].v1)" value="Submit"></form>
+        <br><br>
+        <h1>JavaScript Calculator</h1>
+        <form action="" name="f2">
+        <input type="text" placeholder="Enter number" name="n1">
+        <select name="v2" id="">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value=""></option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" placeholder="Enter number" name="n2">
+        <input type="submit" onclick="operation(document.forms['f2'].n1,document.forms['f2'].v2,document.forms['f2'].n2)" value="Submit"></form>
+        <br><br><br><br>
+        <form action="" name="f3">
+            Name :  <input type="text" placeholder="Enter your Name" name="n"><br><br>
+            Email : <input type="text" placeholder="Enter your Email" name="e"><br><br>
+            Password : <input type="text" placeholder="Enter your Password" name="p"><br><br>
+            Phone Number : <input type="text" placeholder="Enter your Phone Number" name="pn"><br><br>
+            Date of Birth : <input type="text" placeholder="Enter your Date of Birth" name="dob"><br><br>
+            <input type="submit" onclick="detailscheck(document.forms['f3'].n,document.forms['f3'].e,document.forms['f3'].p,document.forms['f3'].pn,document.forms['f3'].dob)" value="Submit"></form>    
+        </form>
+    </body></center>
+</html>
+
